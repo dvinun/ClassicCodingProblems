@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassicCodingProblems", "ClassicCodingProblems.csproj", "{572205C2-AFF1-434B-B7B7-F19ED2312C4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{572205C2-AFF1-434B-B7B7-F19ED2312C4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{572205C2-AFF1-434B-B7B7-F19ED2312C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{572205C2-AFF1-434B-B7B7-F19ED2312C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{572205C2-AFF1-434B-B7B7-F19ED2312C4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A7E0443-1386-43ED-9D4A-BBCEADD80246}
+	EndGlobalSection
+EndGlobal
