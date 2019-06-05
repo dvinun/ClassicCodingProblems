@@ -7,7 +7,7 @@
     <ProjectGuid>{572205C2-AFF1-434B-B7B7-F19ED2312C4F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>Dvinun.ClassicCodingProblems</RootNamespace>
-    <AssemblyName>ClassicCodingProblems</AssemblyName>
+    <AssemblyName>Dvinun.ClassicCodingProblems</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -36,6 +36,9 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Dvinun.CommonDotNet">
+      <HintPath>..\..\CommonDotNet\CommonDotNet\bin\Debug\Dvinun.CommonDotNet.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -47,7 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Common.cs" />
+    <Compile Include="MagicSquares.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

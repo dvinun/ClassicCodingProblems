@@ -39,5 +39,7 @@ namespace Dvinun.CodingExercises.Tests
             numberOfMinimumTrials = eggsAndFloorsProblem.GetEggDropTrials(numberOfFloors, numberOfEggs);
             Assert.AreEqual(14, numberOfMinimumTrials);
         }
+
+
     }
 }
